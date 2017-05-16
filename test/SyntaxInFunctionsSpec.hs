@@ -4,7 +4,6 @@ module SyntaxInFunctionsSpec
 
 import Test.Hspec
 import Test.Hspec.QuickCheck
-import Test.Hspec.HUnit
 import Data.Function
 import Data.Functor
 import Control.Exception hiding (assert)
