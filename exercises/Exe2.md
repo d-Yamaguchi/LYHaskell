@@ -1,4 +1,4 @@
-# Exercises2. StartingOut
+# Exercise2. StartingOut
 * These prpbrems are correspond to Chapter1 (StartingOut).
 * Fill in `src/StartingOut.hs` with your code.
 

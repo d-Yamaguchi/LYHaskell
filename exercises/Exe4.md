@@ -1,4 +1,4 @@
-# Exercises4. SyntaxInFunctions
+# Exercise4. SyntaxInFunctions
 * These prpbrems are correspond to Chapter3 (SyntaxAndTypeClasses).
 * Fill in `src/SyntaxInFunctions.hs` with your code.
 

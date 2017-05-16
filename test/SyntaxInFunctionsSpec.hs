@@ -32,8 +32,13 @@ eitherToMaybe (Left _) = Nothing
 ---Test spec
 
 spec :: Spec
-spec =
+spec = do
   describe "Prob.4-1 Tribonacci Sequence" $ do
     prop "tri_pattern" $ \n -> SyntaxInFunctions.triPattern (mod n 20) == Ans.triPattern (mod n 20)
     prop "tri_guard" $ \n -> SyntaxInFunctions.triGuard (mod n 20) == Ans.triGuard (mod n 20)
     prop "tri_case" $ \n -> SyntaxInFunctions.triCase (mod n 20) == Ans.triCase (mod n 20)
+
+  describe "Prob.4-2 Tupled Number" $ do
+    prop "qadd" $ \q1 q2 ->  SyntaxInFunctions.qadd q1 q2 == Ans.qadd q1 q2
+    prop "qequal" $ \q1 q2 -> SyntaxInFunctions.qequal q1 q2 == Ans.qequal q1 q2
+    prop "qlist" $ \q -> SyntaxInFunctions.qlist q == Ans.qlist q
